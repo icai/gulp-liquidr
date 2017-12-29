@@ -14,13 +14,9 @@
     "vinyl": "^2.1.0"
   },
   "name": "gulp-liquidr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp liquidjs static files render",
   "main": "index.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
   "dependencies": {
     "liquidjs": "^3.0.0",
     "plugin-error": "^0.1.2",
