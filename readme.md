@@ -11,9 +11,7 @@
 
 <!-- [![Coveralls](https://img.shields.io/coveralls/icai/gulp-liquidr.svg)](https://coveralls.io/github/icai/gulp-liquidr?branch=master) -->
 
-> gulp plugin for [LiquidJs](https://github.com/icai/gulp-liquidr)
-
-
+> gulp plugin for [LiquidJs](https://github.com/harttle/liquidjs), current project  https://github.com/icai/gulp-liquidr
 
 
 ## Usage
@@ -55,7 +53,7 @@ Otherwise, undefined variables will cause an exception. Defaults to `false`.
 
 * `greedy` is used to specify whether `trim_left`/`trim_right` is greedy. When set to `true`, all consecutive blank characters including `\n` will be trimed regardless of line breaks. Defaults to `true`.
 
-The above is All [Liquidjs initilization options](https://github.com/icai/gulp-liquidr#options). 
+The above is All [Liquidjs initilization options](https://github.com/harttle/liquidjs#options). 
 
 ----
 
