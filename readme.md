@@ -1,5 +1,7 @@
 # Gulp Liquidr
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/icai/gulp-liquidr.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/gulp-liquidr.svg)](https://www.npmjs.org/package/gulp-liquidr)
 [![npm](https://img.shields.io/npm/dm/gulp-liquidr.svg)](https://www.npmjs.org/package/gulp-liquidr)
 [![Build Status](https://travis-ci.org/icai/gulp-liquidr.svg?branch=master)](https://travis-ci.org/icai/gulp-liquidr)
