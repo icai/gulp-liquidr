@@ -5,16 +5,16 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "eslint": "^4.15.0",
+    "eslint": "^5.0.0",
     "eslint-plugin-mocha": "^5.0.0",
     "gulp": "^3.9.0",
-    "gulp-eslint": "^4.0.1",
-    "husky": "^0.14.3",
+    "gulp-eslint": "^5.0.0",
+    "husky": "^1.0.0",
     "mocha": "^5.0.0",
     "vinyl": "^2.1.0"
   },
   "name": "gulp-liquidr",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "gulp liquidjs static files render",
   "main": "index.js",
   "dependencies": {

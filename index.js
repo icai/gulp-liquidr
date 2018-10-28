@@ -9,13 +9,13 @@ const deepCopy = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 }
 /**
- * 
+ *
  * @param {
  *  liquidjs options
  *  tags custom tags
  *  filters custom tags
  *  data render data
- * } opts 
+ * } opts
  */
 module.exports = function (opts) {
   const defaults = {
@@ -48,7 +48,7 @@ module.exports = function (opts) {
       // use deep copy data
       engine.parseAndRender(file.contents.toString(), deepCopy(opts.data || {}))
         .then((output) => {
-          file.contents = new Buffer(output);
+          file.contents = Buffer.from(output);
           this.push(file);
           callback();
         }).catch((ex) => {

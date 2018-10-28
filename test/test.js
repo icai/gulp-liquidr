@@ -33,7 +33,7 @@ describe('empty data', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('hi {{name}}')
+      contents: Buffer.from('hi {{name}}')
     }));
     stream.end();
   });
@@ -46,7 +46,7 @@ describe('empty data', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('{% if name %}OK{% endif %}')
+      contents: Buffer.from('{% if name %}OK{% endif %}')
     }));
     stream.end();
   });
@@ -59,7 +59,7 @@ describe('empty data', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('{{name | add: "me", "na"}}')
+      contents: Buffer.from('{{name | add: "me", "na"}}')
     }));
     stream.end();
   });
@@ -74,7 +74,7 @@ describe('with options', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('hi {{name}}')
+      contents: Buffer.from('hi {{name}}')
     }));
     stream.end();
   });
@@ -87,7 +87,7 @@ describe('with options', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('{{name | test}}')
+      contents: Buffer.from('{{name | test}}')
     }));
     stream.end();
   });
@@ -100,7 +100,7 @@ describe('with options', function () {
     stream.on('end', cb);
     stream.write(new Vinyl({
       path: 'file.html',
-      contents: new Buffer('{% upper name %}')
+      contents: Buffer.from('{% upper name %}')
     }));
     stream.end();
   })
