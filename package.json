@@ -4,7 +4,7 @@
     "npm": ">= 3.0.0"
   },
   "devDependencies": {
-    "del": "^3.0.0",
+    "del": "^5.1.0",
     "eslint": "^5.0.0",
     "eslint-plugin-mocha": "^5.0.0",
     "gulp": "^3.9.0",
